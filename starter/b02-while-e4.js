@@ -19,4 +19,12 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 // 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
 
+const answer = parseInt(prompt("Entrez une table de multiplication au choix"));
+let nbre = 1;
+    
+while (nbre <= 10) {
+    console.log(nbre*answer);
+    nbre++;
+}
+
 

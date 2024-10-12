@@ -21,5 +21,9 @@ CORRECTION :
 
 */
 
+for (let nbre =1; nbre <= 5; nbre++) {
+    console.log(`${nbre}`);
+}
+
 
 

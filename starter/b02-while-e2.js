@@ -10,7 +10,6 @@
       // instructions exécutées tant que la condition est vérifiée
     }
 */
-
 /*
 EXEMPLE 2 : 
 - Complétez ce programme pour qu'il fasse 10 tours de manège
@@ -24,3 +23,10 @@ EXEMPLE 2 :
   - Le manège s'arrête
 */
 
+let manege= 1;
+console.log("Le manège démarre !");
+while (manege <=10) {
+    console.log(`C'est le tour du manège ${manege}`)
+    manege++;
+}
+console.log("Le manège est terminé !");

@@ -26,6 +26,11 @@ EXEMPLE 1 :
 
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
 
+for ( let nbre = 1; nbre <=10; nbre++) {
+    console.log(nbre);
+}
+
+
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++
 // nbre = 1,   1 < 5 true,           affiche 1,          nbre passe à 1+1 = 2

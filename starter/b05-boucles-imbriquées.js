@@ -22,3 +22,9 @@
   - Écrivez l'expression à afficher dans le console.log d'une manière alternative,
     en utilisant le concept de template littéral.
 */
+
+    for (let k=1; k <=3; k++){
+        for (let i=1; i <=3; i++) {
+            console.log(`k = ${k}, i=${i}, ${i*k}`);
+        }
+    }

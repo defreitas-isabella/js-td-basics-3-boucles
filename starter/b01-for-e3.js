@@ -17,4 +17,8 @@
 /*
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
+
 */
+for (let nbre =0; nbre <= 20; nbre += 2) {
+    console.log(`${nbre}`);
+}
