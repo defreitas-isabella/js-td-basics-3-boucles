@@ -18,3 +18,21 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+// avec FOR
+
+//let answer = parseInt(prompt("Veuillez entrer le numéro de la table de multiplication choisie :"));
+
+//for (let nbre = 1; nbre <=10; nbre++){
+//console.log(`${nbre*answer}`);
+//}
+
+// avec WHILE
+
+
+let answer = parseInt(prompt("Veuillez entrer le numéro de la table de multiplication choisie :"));
+let nbre = 1;
+while (nbre <= 10) {
+    console.log(`${answer * nbre}`);
+    nbre++;
+}
+
